@@ -2,10 +2,10 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Гостиницы</title>
+    <title>Гостиницы - HTML Academy: Седона</title>
   </head>
   <body>
-    <h1 class="visually-hidden">Гостиницы Седоны</h1>
+    <h1 class="visually-hidden">Гостиницы - HTML Academy: Седона</h1>
     <header class="header">
         <a class="logo" href="index.html"><img src="" alt="Логотип Седоны"></a>
         <nav class="menu" aria-label="Главная навигация по сайту">
@@ -17,7 +17,7 @@
               <a class="menu-link" href="#">О Седоне</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link" href="#">Гостиницы</a>
+              <a class="menu-link">Гостиницы</a>
             </li>
             <li class="menu-item">
               <a class="menu-link" href="#" aria-label="Поиск"></a>
@@ -103,16 +103,17 @@
         </section>
         <b>Найдено гостиниц: 38</b>
           <select name="sorting">
-           <option selected value="first cheap">Сначало дешёвые</option>
-           <option value="first popular">Сначало популярные</option>
-           <option value="by number of stars">По колличеству звёзд</option>
+            <option value="cheap" selected>Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Популярные</option>
+            <option value="high-rated">Высокий рейтинг</option>
           </select>
         <button type="button" aria-label="Показать карточками"></button>
         <button type="button" aria-label="Показать слайдом"></button>
         <button type="button" aria-label="Показать списком"></button>
         <ul>
           <li>
-          <img src="" alt='превью гостиницы "Amara"'>
+          <img src="" alt='Превью гостиницы "Amara"'>
             <h3>Amara Resort & Spa</h3>
             <span>Гостиница</span>
             <span>От 4000 ₽</span>
@@ -120,7 +121,7 @@
             <a href="#">В избранное</a>
           </li>
           <li>
-            <img src="" alt='превью гостиницы "Desert Quail"'>
+            <img src="" alt='Превью гостиницы "Desert Quail"'>
             <h3>Desert Quail Inn</h3>
             <span>Гостиница</span>
             <span>От 3000 ₽</span>
@@ -128,7 +129,7 @@
             <a href="#">В избранное</a>
           </li>
           <li>
-            <img src="" alt='превью гостиницы "Villas at Poco Diablo"'>
+            <img src="" alt='Превью гостиницы "Villas at Poco Diablo"'>
             <h3>Villas at Poco Diablo</h3>
             <span>Гостиница</span>
             <span>От 2000 ₽</span>
@@ -136,7 +137,7 @@
             <a href="#">В избранное</a>
           </li>
           <li>
-            <img src="" alt='превью гостиницы "GreenTree"'>
+            <img src="" alt='Превью гостиницы "GreenTree"'>
             <h3>GreenTree Inn</h3>
             <span>Гостиница</span>
             <span>От 3000 ₽</span>
@@ -159,14 +160,17 @@
             <a class="pagination-link" href="?page=4">4</a>
           </li>
           <li class="pagination-item">
-            <a class="pagination-link" href="?page=5">5</a>
+            <a class="pagination-link" href="?page=5">...</a>
+          </li>
+          <li class="pagination-item">
+            <a class="pagination-link" href="?page=10">10</a>
           </li>
         </ul>
-        <label>Гостиниц на странице
-          <select name="number">
-            <option selected value="four">4</option>
-            <option value="eight">8</option>
-            <option value="sixteen">16</option>
+        <label>Гостиниц на странице:
+          <select name="housing-cards-amount">
+            <option selected value="4">4</option>
+            <option value="8">8</option>
+            <option value="16">16</option>
           </select>
         </label>  
         <section>
