@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #f2f2f2;
+  }
+
+  .header {
+    color: #000000;
+    background-color: #f2f2f2;
+  }
+
+  .menu-link {
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #f2f2f2;
+  }
+
+  .button {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #756257;
+  }
+
+  .main-index {
+    color: #000000;
+    background-color: #f2f2f2;
+    background-image: url("/1718217-sedona-33/images/backgrounds/background-1.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+
+  .greeting b {
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .greeting p {
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+  }
+
+  .advantages h3 {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
